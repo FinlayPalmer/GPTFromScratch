@@ -1,1 +1,19 @@
-chatbot/model-01.pkl
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated model files
+*.pkl
+# Optional:
+# *.pth
