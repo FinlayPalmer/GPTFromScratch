@@ -1,12 +1,11 @@
+# run with downloadOpenWebText.py
+# downloads OpenWebText and splits it into a training data and validation data
+
 from datasets import load_dataset
 
 print("Loading OpenWebText...")
 
-dataset = load_dataset(
-    "Skylion007/openwebtext",
-    split="train",
-    streaming=True
-)
+dataset = load_dataset("Skylion007/openwebtext", split="train", streaming=True)
 
 documents = []
 
